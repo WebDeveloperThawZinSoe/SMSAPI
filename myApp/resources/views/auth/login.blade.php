@@ -4,6 +4,7 @@
             <div class="text-center mb-4">
                 <h2 class="text-2xl font-bold text-indigo-600">Poh Mal SMS Provider</h2>
                 <p class="text-sm text-gray-500 mt-1">Secure login to your provider dashboard</p>
+                <a href="/faq">FAQs</a>
             </div>
         </x-slot>
 

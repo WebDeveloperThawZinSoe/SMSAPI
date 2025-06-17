@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Auth;
 Route::get("/", fn() => redirect('/dashboard'));
 Route::get("/register", fn() => redirect('/login'));
 Route::get("/forgot-password", fn() => redirect('/login'));
+Route::get("/faq",[RouteCheckController::class,"faq"]);
 
 Route::middleware(['web', 'auth'])->group(function () {
     Route::get('/dashboard', [RouteCheckController::class, 'redirect'])->name('dashboard');

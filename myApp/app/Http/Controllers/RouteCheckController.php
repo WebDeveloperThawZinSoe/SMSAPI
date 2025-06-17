@@ -20,4 +20,8 @@ class RouteCheckController extends Controller
 
         abort(403, 'Unauthorized');
     }
+
+    public function faq(){
+        return view("faq");
+    }
 }
